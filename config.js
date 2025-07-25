@@ -45,6 +45,29 @@ const externalPositionIds = {
 // check them here https://docs.enzyme.finance/general-info/codebase/contracts/arbitrum
 const deployedContracts = {
   AllowedDepositRecipientsPolicy: "0xde0c43b8cb1cacdec773ef55fcbfbcbe009891f1",
+  MinMaxInvestmentPolicy: "0x542812a43334634213877fbfde33ecbef5234c9d",
+  AllowedSharesTransferRecipientsPolicy:
+    "0xb5ef1f5e549ad46603bec9011b99a96a6cfd993e",
+  AllowedAssetsForRedemptionPolicy:
+    "0x166ada85f6a398ba01d2b97022770cc6bd9d2ea2",
+  MinAssetBalancesPostRedemptionPolicy:
+    "0x53a124c9201f0d00470cd4245946d2bbb98210ba",
+  AllowedRedeemersForSpecificAssetsPolicy:
+    "0x19abba4ab3134c64abdd17a9073d1ec83663f036",
+  AllowedAdaptersPolicy: "0x1768b813d17f82a8d70bd8b80a8c8c1562878337",
+  AllowedAdaptersPerManagerPolicy: "0xeb036c294e54cc5047ab526c204752d056cc1952",
+  AllowedAdapterIncomingAssetsPolicy:
+    "0x54325c3dc5ad60305a70bc565be7a9ce71224a76",
+  AllowedExternalPositionTypesPolicy:
+    "0x3c441b696bd451d0ba95ebb73cf1b23c20873e14",
+  AllowedExternalPositionTypesPerManagerPolicy:
+    "0x38673bace2ae5e90d4936d0d90b58a3577795205",
+  CumulativeSlippageTolerancePolicy:
+    "0x487f6a8a93c2be5a296ead2c3fbc3fceed4ac599",
+  OnlyRemoveDustExternalPositionPolicy:
+    "0xe4453105be9e579896a3ed73df9a1e285c8c95c2",
+  OnlyUntrackDustOrPricelessAssetsPolicy:
+    "0xa482f4ab637cd5ca00084d511b3ca9aa8d8f475e",
 };
 
 module.exports = {

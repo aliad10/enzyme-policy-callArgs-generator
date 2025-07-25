@@ -2,7 +2,7 @@ const { ethers } = require("ethers");
 
 const {
   encodeAllowedDepositRecipientsPolicy,
-} = require("./1-AllowedDepositRecipientsPolicy");
+} = require("./encoding/1-AllowedDepositRecipientsPolicy");
 const { deployedContracts } = require("./config");
 
 let finalEncoding = [];

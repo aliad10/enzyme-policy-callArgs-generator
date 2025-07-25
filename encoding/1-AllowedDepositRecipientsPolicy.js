@@ -1,5 +1,5 @@
 const { ethers } = require("ethers");
-const { config } = require("./config");
+const { config } = require("../config");
 
 const restrictAllAllowedDepositRecipientsPolicy = false; //Disallow all depositor addresses
 const limittedWalletsPermittedToDeposit = [
