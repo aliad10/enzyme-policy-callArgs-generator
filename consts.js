@@ -70,10 +70,13 @@ const deployedContracts = {
     "0xa482f4ab637cd5ca00084d511b3ca9aa8d8f475e",
 };
 
+const sampleWallet = "0x2089035369B33403DdcaBa6258c34e0B3FfbbBd9"; //satoshi.eth :)
+
 module.exports = {
   config,
   allowedAdaptersChoice,
   protocolAdapterList,
   externalPositionIds,
   deployedContracts,
+  sampleWallet,
 };
